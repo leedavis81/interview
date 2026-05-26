@@ -12,7 +12,7 @@
 
 
 class RateLimiter:
-    # TODO: add __init__ — decide how to configure max requests and time window
+    # TODO: add __init__
 
     def is_request_allowed(self, client_id: str) -> bool:
         # TODO: implement sliding-window check
@@ -21,7 +21,7 @@ class RateLimiter:
 
 if __name__ == "__main__":
     pass
-    # rl = RateLimiter(/* your configuration */)
+    # rl = ...
     # print(rl.is_request_allowed("user_123"))
     # print(rl.is_request_allowed("user_123"))
     # print(rl.is_request_allowed("user_123"))

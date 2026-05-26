@@ -13,10 +13,7 @@ pub struct RateLimiter {
 }
 
 impl RateLimiter {
-    // TODO: add a constructor — decide how to configure max requests and time window
-    // pub fn new(...) -> Self {
-    //     Self { }
-    // }
+    // TODO: add a constructor
 
     pub fn is_request_allowed(&mut self, _client_id: &str) -> bool {
         // TODO: implement sliding-window check
@@ -25,7 +22,7 @@ impl RateLimiter {
 }
 
 fn main() {
-    // let mut rl = RateLimiter::new(/* your configuration */);
+    // let mut rl = ...
     // println!("{}", rl.is_request_allowed("user_123"));
     // println!("{}", rl.is_request_allowed("user_123"));
     // println!("{}", rl.is_request_allowed("user_123"));

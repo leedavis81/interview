@@ -15,10 +15,7 @@ type RateLimiter struct {
 	// TODO: fields
 }
 
-// TODO: add a constructor — decide how to configure max requests and time window
-// func NewRateLimiter(...) *RateLimiter {
-// 	return &RateLimiter{}
-// }
+// TODO: add a constructor
 
 func (rl *RateLimiter) IsRequestAllowed(clientID string) bool {
 	// TODO: implement sliding-window check
@@ -26,7 +23,7 @@ func (rl *RateLimiter) IsRequestAllowed(clientID string) bool {
 }
 
 func main() {
-	// rl := NewRateLimiter(/* your configuration */)
+	// rl := ...
 	// fmt.Println(rl.IsRequestAllowed("user_123"))
 	// fmt.Println(rl.IsRequestAllowed("user_123"))
 	// fmt.Println(rl.IsRequestAllowed("user_123"))

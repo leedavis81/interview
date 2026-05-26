@@ -10,7 +10,7 @@
 // - Be memory-efficient (prune expired timestamps).
 
 class RateLimiter {
-  // TODO: add a constructor — decide how to configure max requests and time window
+  // TODO: add a constructor
 
   /**
    * @param {string} clientId
@@ -22,7 +22,7 @@ class RateLimiter {
   }
 }
 
-// const rl = new RateLimiter(/* your configuration */);
+// const rl = ...
 // console.log(rl.isRequestAllowed("user_123"));
 // console.log(rl.isRequestAllowed("user_123"));
 // console.log(rl.isRequestAllowed("user_123"));

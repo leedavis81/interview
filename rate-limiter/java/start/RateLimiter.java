@@ -10,7 +10,7 @@
 
 public class RateLimiter {
 
-    // TODO: add a constructor — decide how to configure max requests and time window
+    // TODO: add a constructor
 
     public boolean isRequestAllowed(String clientId) {
         // TODO: implement sliding-window check
@@ -18,7 +18,7 @@ public class RateLimiter {
     }
 
     public static void main(String[] args) {
-        // RateLimiter rl = new RateLimiter(/* your configuration */);
+        // RateLimiter rl = ...
         // System.out.println(rl.isRequestAllowed("user_123"));
         // System.out.println(rl.isRequestAllowed("user_123"));
         // System.out.println(rl.isRequestAllowed("user_123"));
